@@ -1,11 +1,6 @@
 function sp_proc1
 
-%
-% 音声処理
-% 横軸は時間
-%
-%
-
+%()内にファイル名表記
 [x,fs]=audioread('1_1.m4a');
 t=(0:length(x)-1)/fs;
 
